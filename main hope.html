@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyE-Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">E-Portfolio<span>Builder</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#features">Process</a>
+                <a href="#process">Order</a>
+                <a href="#pricing">Content Generator</a>
+                <a href="#contact">About us</a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home/Hero Section with Background Image -->
+    <section class="home-section" id="home">
+        <div class="hero-content">
+            <h1 class="title">Create Your Student e-Portfolio Easily</h1>
+            <p class="intro">Build our School Portfolio Step by Step with Google Sites. simple, clear and guided all the
+                way.</p>
+            <p class="description">You'll get the <span class="highlight">full process</span> , plus a <span
+                    class="highlight">Complete Video Tutorial</span> to help you design a portfolio you'll be proud of.
+
+                If it still feels tricky, you can pay just <span class="highlight">Ksh 75</span> We'll Create a
+                Beautifull porfolio for you, Ready to Share and Impress</p>
+            <div class="buttons">
+                <a href="#process-steps" class="btn btn-process">View Process</a>
+                <a href="#order-sect" class="btn btn-order">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-container">
+        <h2 class="process-title">Step-by-Step Process to Create Your Portfolio</h2>
+        <p class="process-subintro">Follow these simple steps to learn, build, and publish your Google Site portfolio
+            easily.</p>
+
+        <!-- Requirements button -->
+        <div class="process-requirements-btn-container">
+            <button class="process-requirements-btn" id="process-requirements-btn">View Requirements</button>
+        </div>
+
+        <!-- Requirements section -->
+        <div class="process-requirements" id="process-requirements">
+            <h3>What You'll Need</h3>
+            <ul class="process-requirements-list">
+                <li>Use a computer or smartphone with a reliable internet connection.</li>
+                <li>Sign in with your Google account to access Google Sites.</li>
+                <li>Prepare a clear profile photo and a concise “About Me” section.</li>
+                <li>Gather academic details, achievements, and key projects.</li>
+                <li>Upload certificates, awards, and evidence of skills or talents.</li>
+                <li>Select a simple color theme and a neat background image.</li>
+                <li>Organize your files on Google Drive for easy linking.</li>
+                <li>Use tools like Canva to design clean visuals or banners.</li>
+                <li>Outline your page content before building your site.</li>
+                <li>Review and refine your portfolio with feedback before publishing.</li>
+            </ul>
+        </div>
+
+      <!-- Process steps -->
+<ul class="process-steps" id="process-steps">
+    <li>🌐 Step 1: Open Google Sites – Launch Google Chrome, search for “Google Sites,” click the first link, and open it.</li>
+    <li>🆕 Step 2: Create a New Site – Click the “Blank Site” icon, type your site name, and upload a background image by clicking the image text and choosing “Upload.”</li>
+    <li class="process-step-hidden">🏠 Step 3: Edit Homepage – Delete default text, copy your preferred bio from the My E-Portfolio Website content generator, paste it into your homepage, and update your name where needed.</li>
+    <li class="process-step-hidden">📄 Step 4: Add Personal Details Page – On the right sidebar, click “Pages,” add a new page named Personal Details, and fill in your information.</li>
+    <li class="process-step-hidden">🪪 Step 5: Create Passport, School ID & National ID Page – Add a new page, insert field boxes, and upload your Passport, School ID, and National ID images.</li>
+    <li class="process-step-hidden">📝 Step 6: Add Assessment Plan Page – Create another page named Assessment Plan, click Insert, and add three field boxes for your assessment details.</li>
+    <li class="process-step-hidden">⚙️ Step 7: Add Conduit System Installation Page – Create a page titled Conduit System Installation, copy relevant bio content from the generator under Electrical Engineering → Conduit, paste it, and add four fields.</li>
+    <li class="process-step-hidden">💡 Step 8: Add More Units – Repeat the same process for other units like Trunking and PVC, adding their content, images, and details neatly.</li>
+    <li class="process-step-hidden">🚀 Step 9: Publish Your Portfolio – Return to the homepage, click Publish, copy your generated link, open it in a new tab, and view your live e-portfolio.</li>
+</ul>
+
+
+        <div class="process-buttons">
+            <button class="process-toggle-btn" id="process-toggle-btn">View More Steps</button>
+        </div>
+
+        <div class="process-video">
+            <h3>🎥 Video Tutorial</h3>
+            <div class="process-video-container">
+                <!-- YouTube tutorial placeholder - replace with actual embed code -->
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Google Sites Portfolio Tutorial"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Pricing Section -->
+    <section class="order-section" id="order-sect">
+        <h1 class="order-title">Let Us Build It for You</h1>
+        <p class="order-subtitle">If you find it hard to create your e-portfolio, let us build it for you for only Ksh
+            75. Our professionals will create a high-quality portfolio that showcases your skills and achievements.</p>
+
+        <div class="order-payment-card">
+            <h3 class="order-payment-title">Pay via M-Pesa</h3>
+            <p class="order-payment-info">Send money to: <strong>0769882553</strong></p>
+            <div class="order-copy-container">
+                <div class="order-copy-number">0769882553</div>
+                <button class="order-copy-btn" id="order-copy-btn">Copy Number</button>
+            </div>
+            <p class="order-payment-info">Reference name: <strong>James Kiladi</strong></p>
+            <p class="order-payment-info">After payment, send confirmation message via WhatsApp.</p>
+        </div>
+
+        <button class="order-btn" id="order-now-btn">Order Now</button>
+        <p class="order-warning">Always send the payment confirmation screenshot on WhatsApp.</p>
+    </section>
+
+
+
+    <!-- Portfolio Content Generator Section -->
+    <section class="pcg-container" aria-labelledby="pcg-title">
+        <h2 id="pcg-title" class="pcg-title">Portfolio Content Generator</h2>
+
+        <!-- Search Bar -->
+        <div class="pcg-search-container">
+            <input type="text" class="pcg-search-input" placeholder="Search for skills, topics, or keywords..."
+                aria-label="Search portfolio content">
+            <div class="pcg-search-results"></div>
+        </div>
+
+        <!-- Course Selection -->
+        <div class="pcg-course-selector" role="tablist" aria-label="Select a course">
+            <!-- Course buttons will be dynamically inserted here -->
+        </div>
+
+        <!-- Course Description -->
+        <div class="pcg-course-description">
+            <!-- Course description will be dynamically inserted here -->
+        </div>
+
+        <!-- Units Selection -->
+        <div class="pcg-units-row" role="tablist" aria-label="Select a unit">
+            <!-- Unit buttons will be dynamically inserted here -->
+        </div>
+
+        <!-- Templates Area -->
+        <div class="pcg-templates-container">
+            <div class="pcg-templates-list">
+                <!-- Template rows will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <!-- Toast Notification -->
+        <div class="pcg-toast" aria-live="polite" aria-atomic="true"></div>
+    </section>
+
+
+
+
+    <!-- Modal 1 - Personal Details -->
+    <div class="order-modal-overlay" id="order-modal-1">
+        <div class="order-modal">
+            <h2 class="order-modal-title">Personal Details</h2>
+            <form class="order-form" id="order-personal-form">
+                <input type="text" class="order-input" placeholder="Full Name" required>
+                <input type="text" class="order-input" placeholder="Registration Number" required>
+                <input type="text" class="order-input" placeholder="National ID" required>
+                <input type="tel" class="order-input" placeholder="Phone Number" required>
+                <input type="text" class="order-input" placeholder="Institution" required>
+                <input type="text" class="order-input" placeholder="Department" required>
+                <input type="text" class="order-input" placeholder="Course" required>
+                <input type="text" class="order-input" placeholder="Program Code" required>
+                <input type="text" class="order-input" placeholder="Year of Admission" required>
+                <input type="text" class="order-input" placeholder="Expected Completion" required>
+                <input type="text" class="order-input" placeholder="Nationality" required>
+
+                <div class="order-modal-buttons">
+                    <button type="button" class="order-modal-btn order-cancel-btn" id="order-cancel-1">Cancel</button>
+                    <button type="button" class="order-modal-btn order-next-btn" id="order-next-btn">Next</button>
+                </div>
+            </form>
+            <div class="order-error" id="order-error-1">Please fill all required fields before proceeding.</div>
+        </div>
+    </div>
+
+    <!-- Modal 2 - Account Details -->
+    <div class="order-modal-overlay" id="order-modal-2">
+        <div class="order-modal">
+            <h2 class="order-modal-title">Account Details</h2>
+            <form class="order-form" id="order-account-form">
+                <input type="email" class="order-input" placeholder="Valid Email Address" required>
+                <input type="password" class="order-input" placeholder="Password" required>
+
+                <div class="order-modal-buttons">
+                    <button type="button" class="order-modal-btn order-back-btn" id="order-back-btn">Back</button>
+                    <button type="button" class="order-modal-btn order-finish-btn" id="order-finish-btn">Finish</button>
+                </div>
+            </form>
+            <div class="order-error" id="order-error-2">Please fill all required fields before proceeding.</div>
+        </div>
+    </div>
+
+    <!-- testimoney-->
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <!-- Left column with text -->
+        <div class="testimonials-text">
+            <h2 class="testimonials-title">What Students Say About Us</h2>
+            <p class="testimonials-subtitle">See how others successfully created their portfolios. Our students have
+                achieved remarkable results with our guidance and support.</p>
+        </div>
+
+        <!-- Right column with carousel -->
+        <div class="testimonials-carousel">
+            <div class="testimonials-track-container">
+                <!-- Left navigation arrow -->
+                <button class="testimonials-arrow testimonials-arrow-left"
+                    aria-label="Previous testimonials">&#8249;</button>
+
+                <!-- Horizontal track containing all cards -->
+                <div class="testimonials-track" id="testimonials-track">
+                    <!-- Card 1 -->
+                    <div class="testimonials-card">
+                        <div class="testimonials-background"
+                            style="background-image: url('st1.jpg');">
+                        </div>
+                        <div class="testimonials-overlay"></div>
+                        <div class="testimonials-info">
+                            <h3 class="testimonials-name">James Kiladi</h3>
+                            <div class="testimonials-stars">★★★★★</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="testimonials-card">
+                        <div class="testimonials-background"
+                            style="background-image: url('st2.jpg');">
+                        </div>
+                        <div class="testimonials-overlay"></div>
+                        <div class="testimonials-info">
+                            <h3 class="testimonials-name">Bevaline Auma</h3>
+                            <div class="testimonials-stars">★★★★★</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="testimonials-card">
+                        <div class="testimonials-background"
+                            style="background-image: url('st3.jpg');">
+                        </div>
+                        <div class="testimonials-overlay"></div>
+                        <div class="testimonials-info">
+                            <h3 class="testimonials-name">Didier Fotune</h3>
+                            <div class="testimonials-stars">★★★★★</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="testimonials-card">
+                        <div class="testimonials-background"
+                            style="background-image: url('st4.jpg');">
+                        </div>
+                        <div class="testimonials-overlay"></div>
+                        <div class="testimonials-info">
+                            <h3 class="testimonials-name">Faith Naliaka</h3>
+                            <div class="testimonials-stars">★★★★★</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="testimonials-card">
+                        <div class="testimonials-background"
+                            style="background-image: url('st5.jpg');">
+                        </div>
+                        <div class="testimonials-overlay"></div>
+                        <div class="testimonials-info">
+                            <h3 class="testimonials-name">Brian Juma</h3>
+                            <div class="testimonials-stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right navigation arrow -->
+                <button class="testimonials-arrow testimonials-arrow-right"
+                    aria-label="Next testimonials">&#8250;</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="about-faqs-section">
+        <h2 class="about-hd">About us</h2>
+        <!-- Profile Section -->
+        <div class="profile-container">
+            <img src="user-2.jpg" alt="Kiladi - Portfolio Creator" class="profile-image">
+            <div class="profile-content">
+                <p class="profile-message">"Hi, I'm <span class="profile-name">Kiladi</span> — the creator of this
+                    platform. I'm passionate about helping students build beautiful digital portfolios easily and
+                    affordably."</p>
+                <p class="profile-message">This website was designed to make portfolio creation simple for all students,
+                    especially those who are not tech-savvy.</p>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="about">
+            <h2 class="section-title">About This Platform</h2>
+            <div class="about-content">
+                <p>It provides a step-by-step video guide and written tutorials on how to create your own portfolio
+                    using Google Sites. For those who prefer personalized assistance, there's also an option to have the
+                    portfolio made for them for just Ksh 75.</p>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq">
+            <h2 class="section-title faq-title">Frequently Asked Questions</h2>
+            <ul class="faq-list">
+                <li class="faq-item">
+                    <button class="faq-question">
+                        What is this website about?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>This website helps students easily create digital portfolios using Google Sites through
+                            guided tutorials. It's designed specifically for those with little to no technical
+                            experience.</p>
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <button class="faq-question">
+                        How can I get a portfolio made for me?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can submit your details through the paid service section. We'll create a professional
+                            portfolio for you based on your requirements for just Ksh 75.</p>
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <button class="faq-question">
+                        Can I watch the video tutorials for free?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! All video tutorials are completely free to access. We believe in making portfolio
+                            creation accessible to all students regardless of their budget.</p>
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <button class="faq-question">
+                        Do I need coding knowledge to use this website?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No coding knowledge is required. Our platform uses Google Sites, which is a drag-and-drop
+                            website builder. Our tutorials guide you through every step.</p>
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <button class="faq-question">
+                        How long does it take to create my own portfolio?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most students can create a basic portfolio in about 30-60 minutes following our step-by-step
+                            guide. More detailed portfolios might take 2-3 hours.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 E-Portfolio Builder. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            const hamburger = document.querySelector('.hamburger');
+
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                const navLinks = document.querySelector('.nav-links');
+                const hamburger = document.querySelector('.hamburger');
+
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+
+        //processs
+        // Get DOM elements
+        const toggleBtn = document.getElementById('process-toggle-btn');
+        const stepsList = document.getElementById('process-steps');
+        const hiddenSteps = document.querySelectorAll('.process-step-hidden');
+        const requirementsBtn = document.getElementById('process-requirements-btn');
+        const requirementsSection = document.getElementById('process-requirements');
+
+        // Toggle steps visibility
+        toggleBtn.addEventListener('click', function () {
+            // Toggle hidden steps
+            hiddenSteps.forEach(step => {
+                step.classList.toggle('process-step-hidden');
+            });
+
+            // Update button text and position
+            if (hiddenSteps[0].classList.contains('process-step-hidden')) {
+                toggleBtn.textContent = 'View More Steps';
+            } else {
+                toggleBtn.textContent = 'View Less';
+            }
+        });
+
+        // Toggle requirements visibility
+        requirementsBtn.addEventListener('click', function () {
+            // Toggle requirements section
+            if (requirementsSection.style.display === 'block') {
+                requirementsSection.style.display = 'none';
+                requirementsBtn.textContent = 'View Requirements';
+            } else {
+                requirementsSection.style.display = 'block';
+                requirementsBtn.textContent = 'Hide Requirements';
+            }
+        });
+
+
+
+        //order
+
+        // DOM Elements
+        const orderNowBtn = document.getElementById('order-now-btn');
+        const orderModal1 = document.getElementById('order-modal-1');
+        const orderModal2 = document.getElementById('order-modal-2');
+        const orderCancel1 = document.getElementById('order-cancel-1');
+        const orderNextBtn = document.getElementById('order-next-btn');
+        const orderBackBtn = document.getElementById('order-back-btn');
+        const orderFinishBtn = document.getElementById('order-finish-btn');
+        const orderCopyBtn = document.getElementById('order-copy-btn');
+        const orderError1 = document.getElementById('order-error-1');
+        const orderError2 = document.getElementById('order-error-2');
+
+        // Form Elements
+        const personalForm = document.getElementById('order-personal-form');
+        const accountForm = document.getElementById('order-account-form');
+
+        // Open Modal 1
+        orderNowBtn.addEventListener('click', () => {
+            orderModal1.style.display = 'flex';
+        });
+
+        // Close Modal 1
+        orderCancel1.addEventListener('click', () => {
+            orderModal1.style.display = 'none';
+            orderError1.style.display = 'none';
+        });
+
+        // Next Button - Validate and Open Modal 2
+        orderNextBtn.addEventListener('click', () => {
+            const inputs = personalForm.querySelectorAll('input');
+            let allFilled = true;
+
+            inputs.forEach(input => {
+                if (!input.value.trim()) {
+                    allFilled = false;
+                }
+            });
+
+            if (allFilled) {
+                orderModal1.style.display = 'none';
+                orderModal2.style.display = 'flex';
+                orderError1.style.display = 'none';
+            } else {
+                orderError1.style.display = 'block';
+            }
+        });
+
+        // Back Button - Return to Modal 1
+        orderBackBtn.addEventListener('click', () => {
+            orderModal2.style.display = 'none';
+            orderModal1.style.display = 'flex';
+            orderError2.style.display = 'none';
+        });
+
+        // Finish Button - Send to WhatsApp
+        orderFinishBtn.addEventListener('click', () => {
+            const personalInputs = personalForm.querySelectorAll('input');
+            const accountInputs = accountForm.querySelectorAll('input');
+
+            let allFilled = true;
+
+            personalInputs.forEach(input => {
+                if (!input.value.trim()) {
+                    allFilled = false;
+                }
+            });
+
+            accountInputs.forEach(input => {
+                if (!input.value.trim()) {
+                    allFilled = false;
+                }
+            });
+
+            if (allFilled) {
+                // Collect all data
+                const personalData = Array.from(personalInputs).map(input => input.value);
+                const accountData = Array.from(accountInputs).map(input => input.value);
+
+                // Format WhatsApp message
+                const message = `NEW PORTFOLIO ORDER
+------------------------------------
+Full Name: ${personalData[0]}
+Reg No: ${personalData[1]}
+National ID: ${personalData[2]}
+Phone: ${personalData[3]}
+Institution: ${personalData[4]}
+Department: ${personalData[5]}
+Course: ${personalData[6]}
+Program Code: ${personalData[7]}
+Year of Admission: ${personalData[8]}
+Expected Completion: ${personalData[9]}
+Nationality: ${personalData[10]}
+------------------------------------
+Email: ${accountData[0]}
+Password: ${accountData[1]}
+------------------------------------
+Payment Reference: James Kiladi`;
+
+                // Encode message for URL
+                const encodedMessage = encodeURIComponent(message);
+
+                // Create WhatsApp URL
+                const whatsappURL = `https://wa.me/254769882553?text=${encodedMessage}`;
+
+                // Try to open WhatsApp
+                try {
+                    window.open(whatsappURL, '_blank');
+                    // Close modal after sending
+                    orderModal2.style.display = 'none';
+                    orderError2.style.display = 'none';
+
+                    // Reset forms
+                    personalForm.reset();
+                    accountForm.reset();
+                } catch (error) {
+                    alert('Could not open WhatsApp. Please send your details manually to 0769882553.');
+                }
+            } else {
+                orderError2.style.display = 'block';
+            }
+        });
+
+        // Copy Number Button
+        orderCopyBtn.addEventListener('click', () => {
+            const phoneNumber = '0769882553';
+
+            // Create a temporary textarea to copy from
+            const textarea = document.createElement('textarea');
+            textarea.value = phoneNumber;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+
+            // Show confirmation
+            alert('Number copied!');
+        });
+
+        // Close modals when clicking outside
+        window.addEventListener('click', (event) => {
+            if (event.target === orderModal1) {
+                orderModal1.style.display = 'none';
+                orderError1.style.display = 'none';
+            }
+            if (event.target === orderModal2) {
+                orderModal2.style.display = 'none';
+                orderError2.style.display = 'none';
+            }
+        });
+
+
+        //testimony
+        // Wait for DOM to be fully loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get references to DOM elements
+            const testimonialsTrack = document.getElementById('testimonials-track');
+            const leftArrow = document.querySelector('.testimonials-arrow-left');
+            const rightArrow = document.querySelector('.testimonials-arrow-right');
+            const cards = document.querySelectorAll('.testimonials-card');
+
+            // Calculate card width including gap for scrolling
+            let cardWidth = cards[0].offsetWidth + 15; // 15px is the gap
+
+            // Set initial scroll position
+            let currentPosition = 0;
+
+            // Auto-scroll interval ID
+            let autoScrollInterval;
+
+            // Function to update track position
+            function updateTrackPosition() {
+                testimonialsTrack.style.transform = `translateX(-${currentPosition}px)`;
+            }
+
+            // Function to scroll to the next card
+            function scrollNext() {
+                // Calculate maximum scroll position
+                const maxScroll = testimonialsTrack.scrollWidth - testimonialsTrack.parentElement.offsetWidth;
+
+                // Update current position
+                currentPosition += cardWidth;
+
+                // If we've reached the end, loop back to start
+                if (currentPosition > maxScroll) {
+                    currentPosition = 0;
+                }
+
+                // Apply the transformation
+                updateTrackPosition();
+            }
+
+            // Function to scroll to the previous card
+            function scrollPrev() {
+                // Update current position
+                currentPosition -= cardWidth;
+
+                // If we've reached the beginning, loop to the end
+                if (currentPosition < 0) {
+                    const maxScroll = testimonialsTrack.scrollWidth - testimonialsTrack.parentElement.offsetWidth;
+                    currentPosition = maxScroll;
+                }
+
+                // Apply the transformation
+                updateTrackPosition();
+            }
+
+            // Function to start auto-scrolling
+            function startAutoScroll() {
+                autoScrollInterval = setInterval(scrollNext, 3000); // Scroll every 3 seconds
+            }
+
+            // Function to stop auto-scrolling
+            function stopAutoScroll() {
+                clearInterval(autoScrollInterval);
+            }
+
+            // Event listeners for manual navigation
+            leftArrow.addEventListener('click', function () {
+                stopAutoScroll();
+                scrollPrev();
+                // Restart auto-scroll after a delay
+                setTimeout(startAutoScroll, 5000);
+            });
+
+            rightArrow.addEventListener('click', function () {
+                stopAutoScroll();
+                scrollNext();
+                // Restart auto-scroll after a delay
+                setTimeout(startAutoScroll, 5000);
+            });
+
+            // Pause auto-scroll on hover
+            testimonialsTrack.addEventListener('mouseenter', stopAutoScroll);
+            testimonialsTrack.addEventListener('mouseleave', startAutoScroll);
+
+            // Pause auto-scroll on touch for mobile devices
+            testimonialsTrack.addEventListener('touchstart', stopAutoScroll);
+            testimonialsTrack.addEventListener('touchend', function () {
+                // Restart auto-scroll after a delay
+                setTimeout(startAutoScroll, 5000);
+            });
+
+            // Initialize auto-scroll
+            startAutoScroll();
+
+            // Handle window resize to recalculate positions
+            window.addEventListener('resize', function () {
+                // Recalculate card width
+                const newCardWidth = cards[0].offsetWidth + 15;
+
+                // Adjust current position proportionally
+                currentPosition = Math.floor((currentPosition / cardWidth) * newCardWidth);
+
+                // Update card width variable
+                cardWidth = newCardWidth;
+
+                // Update track position
+                updateTrackPosition();
+            });
+        });
+
+
+        //about
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            // Initialize all FAQs as closed
+            faqItems.forEach(item => {
+                item.classList.remove('active');
+            });
+
+            // Add click event to each FAQ question
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+
+                question.addEventListener('click', function () {
+                    const isActive = item.classList.contains('active');
+
+                    // Close all FAQs
+                    faqItems.forEach(faq => {
+                        faq.classList.remove('active');
+                    });
+
+                    // If the clicked FAQ wasn't active, open it
+                    if (!isActive) {
+                        item.classList.add('active');
+                    }
+                });
+
+                // Add keyboard accessibility
+                question.addEventListener('keydown', function (e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        question.click();
+                    }
+                });
+            });
+
+            // Add scroll animation
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function (entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animation = 'fadeIn 0.6s ease-out forwards';
+                    }
+                });
+            }, observerOptions);
+
+            const aboutSection = document.querySelector('.about-faqs-section');
+            observer.observe(aboutSection);
+        });
+
+
+
+        // USAGE NOTE:
+        // To add new courses/units/templates, simply extend the pcgData array below
+        // following the same structure. The code will automatically handle rendering.
+
+        // Enhanced data structure with General Bios as the first tab
+        const pcgData = [
+            {
+                id: 'general',
+                title: 'General Bios',
+                description: 'Versatile bio templates suitable for any technical or engineering course. Choose your experience level to find the perfect bio for your portfolio.',
+                units: [
+                    {
+                        id: 'entry',
+                        title: 'Entry Level',
+                        templates: [
+                            'I’m (Your Name), an experienced professional specializing in (Your Course/Field). Over the years, I have developed strong technical and interpersonal skills that allow me to deliver consistent results and drive team success.',
+                            'My name is (Your Name), a seasoned expert in (Your Course/Field) with a proven record of excellence and innovation. I am passionate about leadership, continuous improvement, and mentoring others to achieve their best.',
+                            'I’m (Your Name), a dedicated and result-driven professional with several years of experience in (Your Course/Field). My career journey has shaped me into a reliable, efficient, and solution-oriented individual committed to organizational growth.',
+                            'I’m (Your Name), a dedicated entry-level professional passionate about (Your Course/Field). I take pride in my adaptability, curiosity, and determination to learn quickly and perform effectively in any team or organization.'
+                            
+                        ]
+                    },
+                    {
+                        id: 'experienced',
+                        title: 'Experienced',
+                        templates: [
+                            'I’m (Your Name), an experienced professional specializing in (Your Course/Field). Over the years, I have developed strong technical and interpersonal skills that allow me to deliver consistent results and drive team success.',
+                            'My name is (Your Name), a seasoned expert in (Your Course/Field) with a proven record of excellence and innovation. I am passionate about leadership, continuous improvement, and mentoring others to achieve their best.',
+                            'I’m (Your Name), a dedicated and result-driven professional with several years of experience in (Your Course/Field). My career journey has shaped me into a reliable, efficient, and solution-oriented individual committed to organizational growth.',
+                            'My name is (Your Name), a motivated professional with extensive experience in (Your Course/Field). I have a deep appreciation for collaboration, problem-solving, and strategic planning, which have helped me excel in achieving professional'
+                        ]
+                    },
+                    {
+                        id: 'career-change',
+                        title: 'Career Change',
+                        templates: [
+                            'I’m (Your Name), currently transitioning into (Your Course/Field) after gaining valuable experience in another industry. My background has equipped me with diverse skills, adaptability, and a fresh perspective that I now bring to this new path.',
+                            'My name is (Your Name), a passionate learner making a career shift into (Your Course/Field). I’m driven by curiosity, growth, and the desire to align my skills and values with a career that excites and challenges me.',
+                            'I’m (Your Name), pursuing a new professional direction in (Your Course/Field). My past experiences have strengthened my analytical and problem-solving skills, which I now apply to this evolving and dynamic field with enthusiasm.',
+                            'My name is (Your Name), and I’m embracing a new journey in (Your Course/Field). I believe that change brings opportunity, and I’m eager to combine my previous experience with new knowledge to make a strong impact in this profession.'
+                        
+                        ]
+                    },
+                    {
+                        id: 'specialized',
+                        title: 'Specialized Skills',
+                        templates: [
+                           'I’m (Your Name), a skilled professional specializing in (Your Course/Field). My focus is on mastering advanced techniques, refining my expertise, and delivering innovative solutions that drive efficiency and excellence.',
+                           'My name is (Your Name), an expert in (Your Course/Field) with a passion for precision, problem-solving, and professional growth. I take pride in my ability to apply specialized knowledge to achieve meaningful results.',
+                           'I’m (Your Name), a results-oriented professional with in-depth knowledge and technical experience in (Your Course/Field). My goal is to use my specialized skills to support innovation, research, and high-performance outcomes.',
+                           'My name is (Your Name), an advanced practitioner in (Your Course/Field) committed to lifelong learning and technical mastery. I strive to combine innovation with accuracy to produce exceptional results in every task.'
+                        ]
+                    }
+                ]
+            },
+            {
+                 id: 'electrical',
+        title: 'Electrical Engineering',
+        description: 'An inspiring and transformative journey through the science of electricity and innovation — centered on mastering electrical design, installation, maintenance, and renewable power solutions for homes, industries, and modern technology.',
+         units: [
+        {
+            id: 'conduit',
+            title: 'Conduit Work',
+            templates: [
+                'I mastered the art of installing, bending, and terminating PVC conduit systems with great attention to accuracy, safety, and neatness. This unit taught me how to transform raw layouts into clean, well-organized wiring systems that meet both technical and aesthetic standards.',
+                'Through practical training, I learned to measure, bend, and route conduits to perfection, ensuring both durability and accessibility. I also became skilled at interpreting drawings, cutting precisely, and using proper tools for professional installation.',
+                'This unit helped me understand how careful planning, alignment, and protection of electrical cables form the backbone of any safe and reliable installation. My confidence grew as I handled different conduit materials in real project environments.',
+                'I gained valuable experience connecting junction boxes, sealing joints, and ensuring all conduits were safely secured. Each step strengthened my commitment to quality workmanship and professional standards in electrical construction.'
+            ]
+        },
+        {
+            id: 'trunking',
+            title: 'Trunking Systems',
+            templates: [
+                'I learned to design and install trunking systems that not only protect cables but also enhance the overall organization and beauty of electrical setups. Every installation taught me how functionality and presentation can go hand in hand.',
+                'This unit improved my ability to plan, measure, and fix trunking with accuracy in residential, commercial, and industrial settings. I developed a strong appreciation for orderliness and the importance of efficient cable management.',
+                'I became confident in creating straight, clean trunking runs that ensure cables remain accessible and safe. My projects reflected attention to detail, consistency, and adherence to professional safety practices.',
+                'I also explored various types of trunking — surface, underfloor, and overhead — learning how to choose and apply each based on system requirements, space, and design standards.'
+            ]
+        },
+        {
+            id: 'pvcsheathed',
+            title: 'PVC Sheathed Wiring',
+            templates: [
+                'I became skilled in installing and testing PVC sheathed cable systems, ensuring electrical circuits are safe, tidy, and efficient. This unit improved my ability to manage both light and power circuits confidently.',
+                'Through practical lessons, I learned to measure, cut, and connect PVC cables with precision while maintaining excellent insulation and termination standards. I discovered the importance of proper clipping and routing for a professional finish.',
+                'This unit helped me understand the technical aspects of current ratings, cable sizing, and insulation properties — vital for safe electrical distribution and protection.',
+                'I gained experience performing continuity and insulation resistance tests, ensuring every circuit complied with safety standards and operated reliably. This strengthened my confidence in practical electrical installation work.'
+            ]
+        },
+        {
+            id: 'solar',
+            title: 'Solar Installations',
+            templates: [
+                'I participated in hands-on solar installation projects where I connected PV panels, configured inverters, and tested complete systems for efficiency. This unit gave me real insight into renewable energy and the role it plays in sustainable living.',
+                'I learned how to design PV arrays, calculate system capacity, and perform DC wiring with precision. Each practical session improved my understanding of how solar energy integrates with modern electrical systems.',
+                'This unit strengthened my confidence in mounting solar panels on different roof types, ensuring stability, safety, and durability. I also practiced using testing instruments to confirm proper system performance.',
+                'Through teamwork and field practice, I developed strong problem-solving and technical skills, enabling me to install, maintain, and troubleshoot solar systems with professionalism and care.'
+            ]
+        }
+    ]
+    },
+    {
+        id: 'mechanical',
+        title: 'Mechanical Engineering',
+        description: 'A thrilling exploration of machines, materials, and motion — combining creativity, technical knowledge, and innovation to turn mechanical concepts into practical engineering excellence.',
+        units: [
+            {
+                id: 'machines',
+                title: 'Machines & Motors',
+                templates: [
+                    'I built strong hands-on skills in assembling, operating, and maintaining motors and mechanical systems. This unit gave me real confidence in understanding how machines perform and how to optimize their reliability.',
+                    'I learned the core principles of motor control, torque, and power transmission while emphasizing preventive maintenance and operational safety. This experience shaped me into a more analytical and detail-oriented engineer.',
+                    'I practiced alignment, coupling, and balancing of rotating equipment to ensure smooth operation and long service life. The precision required taught me the value of patience and focus in every mechanical task.',
+                    'This unit helped me develop practical problem-solving skills, from diagnosing mechanical faults to implementing effective repairs. I now approach mechanical systems with confidence and technical insight.'
+                ]
+            },
+            {
+                id: 'welding',
+                title: 'Welding & Fabrication',
+                templates: [
+                    'I became skilled in performing MIG, TIG, and arc welding, always prioritizing accuracy, safety, and strength in every joint I made. This unit helped me appreciate the balance between skill and discipline in fabrication.',
+                    'Through real fabrication projects, I learned to interpret complex engineering drawings and translate them into precise metal structures. Each piece I created reflected patience, focus, and craftsmanship.',
+                    'I worked on challenging builds that tested my teamwork, creativity, and technical adaptability. These experiences improved my hand-eye coordination and attention to fine details.',
+                    'I developed the ability to inspect and test welds for quality assurance, ensuring all products met industrial standards of durability and aesthetics.'
+                ]
+            },
+            {
+                id: 'cad',
+                title: 'CAD & Design',
+                templates: [
+                    'I learned to create detailed mechanical drawings using professional CAD tools, transforming ideas into accurate blueprints for real-world applications.',
+                    'This unit enhanced my ability to model mechanical parts in 3D and analyze how each component interacts in a system. It helped me connect creativity with precision.',
+                    'I gained confidence in dimensioning, tolerances, and simulation, ensuring every design I created was both practical and safe. My understanding of design standards improved greatly.',
+                    'Through continuous practice, I learned to think like a designer — considering efficiency, sustainability, and ease of manufacturing in every mechanical concept I created.'
+                ]
+            }
+        ]
+    },
+    {
+        id: 'civil',
+        title: 'Civil Engineering',
+        description: 'An empowering exploration of construction and infrastructure — dedicated to shaping the future through durable, efficient, and sustainable engineering practices that strengthen communities.',
+        units: [
+            {
+                id: 'surveying',
+                title: 'Surveying',
+                templates: [
+                    'I became proficient in using surveying instruments such as theodolites, total stations, and GPS units to collect accurate land data. This unit strengthened my precision, teamwork, and analytical skills.',
+                    'I learned to measure distances, angles, and elevations accurately to produce detailed site plans. Each practical session helped me appreciate the role of precision in construction success.',
+                    'I gained hands-on experience conducting topographical surveys, leveling, and layout marking for real projects. This exposure taught me how to translate maps into accurate ground reality.',
+                    'This unit built my understanding of modern surveying technologies, data processing, and map presentation — essential for reliable construction and infrastructure development.'
+                ]
+            },
+            {
+                id: 'materials',
+                title: 'Construction Materials',
+                templates: [
+                    'I performed laboratory tests on concrete, steel, and aggregates to evaluate their quality, strength, and durability. This experience made me confident in analyzing and interpreting test results professionally.',
+                    'This unit deepened my understanding of material science, from chemical composition to load-bearing performance. It showed me how choosing the right material determines the success of a project.',
+                    'I gained expertise in testing materials for compliance with structural codes, learning how to ensure every element of a project meets design specifications.',
+                    'Through practical experiments, I learned how materials behave under stress and how engineers can use that knowledge to design safer, longer-lasting structures.'
+                ]
+            },
+            {
+                id: 'structures',
+                title: 'Structural Principles',
+                templates: [
+                    'I studied how loads are distributed across beams, columns, and foundations, developing a deeper understanding of what makes structures stable and strong.',
+                    'This unit taught me to apply engineering formulas and software to analyze different structures under real conditions. It strengthened my problem-solving and critical-thinking skills.',
+                    'I participated in structural modeling projects that tested my creativity and accuracy in applying civil engineering principles. This practical exposure prepared me for real construction challenges.',
+                    'I learned to design safe and efficient structures using modern engineering codes, gaining confidence in translating theory into reliable, real-world solutions.'
+                ]
+            }
+        ]
+    },
+    {
+        id: 'computer',
+        title: 'Computer Engineering',
+        description: 'A forward-thinking journey blending hardware and software innovation — empowering learners to create, connect, and secure the systems that define our digital future.',
+        units: [
+            {
+                id: 'networking',
+                title: 'Networking',
+                templates: [
+                    'I gained practical experience setting up routers, switches, and firewalls to build functional and secure network infrastructures. This unit helped me understand how digital communication truly works.',
+                    'Through real configurations, I learned the essentials of IP addressing, subnetting, and routing while managing network security and performance optimization.',
+                    'I developed strong troubleshooting skills by diagnosing and resolving connectivity issues in wired and wireless systems. Every challenge strengthened my technical confidence.',
+                    'This unit improved my ability to design scalable network layouts and manage data traffic efficiently, ensuring reliability across devices and users.'
+                ]
+            },
+            {
+                id: 'programming',
+                title: 'Programming',
+                templates: [
+                    'I became skilled in writing efficient, well-structured code using languages like Python, Java, and C++. This experience taught me the beauty of logic and problem-solving.',
+                    'Through this unit, I learned to design algorithms, build applications, and debug programs while collaborating with others in development environments.',
+                    'I created software projects that combined creativity and functionality, improving my ability to think critically and implement practical solutions.',
+                    'I developed the discipline to write clean code, document my work, and test my programs thoroughly to ensure high performance and reliability.'
+                ]
+            },
+            {
+                id: 'hardware',
+                title: 'Computer Hardware',
+                templates: [
+                    'I gained hands-on experience assembling, upgrading, and maintaining computer systems from scratch. This process deepened my understanding of how hardware components interact.',
+                    'This unit helped me develop strong diagnostic and repair skills, allowing me to identify faults and restore systems to full functionality efficiently.',
+                    'I learned to configure BIOS settings, install operating systems, and optimize system performance for different user requirements.',
+                    'Gained a deep appreciation for hardware design, compatibility, and safety procedures that ensure smooth integration with modern software environments.'
+                ]
+            }
+        ]
+    }
+];
+
+        // DOM Elements
+        const courseSelector = document.querySelector('.pcg-course-selector');
+        const courseDescription = document.querySelector('.pcg-course-description');
+        const unitsRow = document.querySelector('.pcg-units-row');
+        const templatesContainer = document.querySelector('.pcg-templates-container');
+        const templatesList = document.querySelector('.pcg-templates-list');
+        const toast = document.querySelector('.pcg-toast');
+        const searchInput = document.querySelector('.pcg-search-input');
+        const searchResults = document.querySelector('.pcg-search-results');
+
+        // State variables
+        let currentCourse = null;
+        let currentUnit = null;
+        let searchTerm = '';
+
+        // Initialize the component
+        function init() {
+            renderCourses();
+            setupEventListeners();
+            checkScrollable();
+        }
+
+        // Check if units row is scrollable and add peeking effect
+        function checkScrollable() {
+            if (unitsRow.scrollWidth > unitsRow.clientWidth) {
+                unitsRow.classList.add('scrollable');
+            } else {
+                unitsRow.classList.remove('scrollable');
+            }
+        }
+
+        // Render course buttons
+        function renderCourses() {
+            courseSelector.innerHTML = '';
+
+            pcgData.forEach((course, index) => {
+                const button = document.createElement('button');
+                button.className = 'pcg-course-btn';
+                button.textContent = course.title;
+                button.setAttribute('role', 'tab');
+                button.setAttribute('aria-selected', 'false');
+                button.setAttribute('tabindex', index === 0 ? '0' : '-1');
+                button.dataset.courseId = course.id;
+
+                button.addEventListener('click', () => selectCourse(course.id));
+                button.addEventListener('keydown', handleCourseKeydown);
+
+                courseSelector.appendChild(button);
+            });
+
+            // Select General Bios by default
+            selectCourse('general');
+        }
+
+        // Handle keyboard navigation for course buttons
+        function handleCourseKeydown(e) {
+            const buttons = Array.from(document.querySelectorAll('.pcg-course-btn'));
+            const currentIndex = buttons.indexOf(e.target);
+
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                e.preventDefault();
+                const nextIndex = (currentIndex + 1) % buttons.length;
+                buttons[nextIndex].focus();
+                buttons[nextIndex].setAttribute('tabindex', '0');
+                e.target.setAttribute('tabindex', '-1');
+            } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                e.preventDefault();
+                const prevIndex = (currentIndex - 1 + buttons.length) % buttons.length;
+                buttons[prevIndex].focus();
+                buttons[prevIndex].setAttribute('tabindex', '0');
+                e.target.setAttribute('tabindex', '-1');
+            } else if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                e.target.click();
+            }
+        }
+
+        // Select a course and render its units
+        function selectCourse(courseId) {
+            // Update active state
+            document.querySelectorAll('.pcg-course-btn').forEach(btn => {
+                const isActive = btn.dataset.courseId === courseId;
+                btn.classList.toggle('active', isActive);
+                btn.setAttribute('aria-selected', isActive);
+            });
+
+            // Find the selected course
+            const course = pcgData.find(c => c.id === courseId);
+            if (!course) return;
+
+            currentCourse = course;
+
+            // Update course description
+            courseDescription.textContent = course.description;
+
+            // Render units
+            renderUnits(course.units);
+
+            // Select first unit by default
+            if (course.units.length > 0) {
+                selectUnit(course.units[0].id);
+            }
+        }
+
+        // Render unit buttons for the selected course
+        function renderUnits(units) {
+            unitsRow.innerHTML = '';
+
+            // Filter units if there's a search term
+            const filteredUnits = searchTerm ?
+                units.filter(unit =>
+                    unit.title.toLowerCase().includes(searchTerm) ||
+                    unit.templates.some(template =>
+                        template.toLowerCase().includes(searchTerm)
+                    )
+                ) : units;
+
+            if (filteredUnits.length === 0) {
+                unitsRow.innerHTML = '<p>No units match your search</p>';
+                unitsRow.classList.add('visible');
+                return;
+            }
+
+            filteredUnits.forEach((unit, index) => {
+                const button = document.createElement('button');
+                button.className = 'pcg-unit-btn';
+                button.textContent = unit.title;
+                button.setAttribute('role', 'tab');
+                button.setAttribute('aria-selected', 'false');
+                button.setAttribute('tabindex', index === 0 ? '0' : '-1');
+                button.dataset.unitId = unit.id;
+
+                button.addEventListener('click', () => selectUnit(unit.id));
+                button.addEventListener('keydown', handleUnitKeydown);
+
+                unitsRow.appendChild(button);
+            });
+
+            // Show units row with animation
+            setTimeout(() => {
+                unitsRow.classList.add('visible');
+                // Check if units row is scrollable after rendering
+                setTimeout(checkScrollable, 50);
+            }, 10);
+        }
+
+        // Handle keyboard navigation for unit buttons
+        function handleUnitKeydown(e) {
+            const buttons = Array.from(document.querySelectorAll('.pcg-unit-btn'));
+            const currentIndex = buttons.indexOf(e.target);
+
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                e.preventDefault();
+                const nextIndex = (currentIndex + 1) % buttons.length;
+                buttons[nextIndex].focus();
+                buttons[nextIndex].setAttribute('tabindex', '0');
+                e.target.setAttribute('tabindex', '-1');
+            } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                e.preventDefault();
+                const prevIndex = (currentIndex - 1 + buttons.length) % buttons.length;
+                buttons[prevIndex].focus();
+                buttons[prevIndex].setAttribute('tabindex', '0');
+                e.target.setAttribute('tabindex', '-1');
+            } else if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                e.target.click();
+            }
+        }
+
+        // Select a unit and render its templates
+        function selectUnit(unitId) {
+            if (!currentCourse) return;
+
+            // Update active state
+            document.querySelectorAll('.pcg-unit-btn').forEach(btn => {
+                const isActive = btn.dataset.unitId === unitId;
+                btn.classList.toggle('active', isActive);
+                btn.setAttribute('aria-selected', isActive);
+            });
+
+            // Find the selected unit
+            const unit = currentCourse.units.find(u => u.id === unitId);
+            if (!unit) return;
+
+            currentUnit = unit;
+
+            // Render templates with animation
+            fadeOutTemplates(() => {
+                renderTemplates(unit.templates);
+                fadeInTemplates();
+            });
+        }
+
+        // Fade out templates with callback
+        function fadeOutTemplates(callback) {
+            templatesList.classList.remove('visible');
+            setTimeout(callback, 300);
+        }
+
+        // Fade in templates
+        function fadeInTemplates() {
+            setTimeout(() => {
+                templatesList.classList.add('visible');
+            }, 10);
+        }
+
+        // Render templates for the selected unit
+        function renderTemplates(templates) {
+            templatesList.innerHTML = '';
+
+            // Filter templates if there's a search term
+            const filteredTemplates = searchTerm ?
+                templates.filter(template =>
+                    template.toLowerCase().includes(searchTerm)
+                ) : templates;
+
+            if (filteredTemplates.length === 0) {
+                templatesList.innerHTML = '<p>No templates match your search</p>';
+                return;
+            }
+
+            filteredTemplates.forEach((template, index) => {
+                const row = document.createElement('div');
+                row.className = 'pcg-template-row';
+
+                const text = document.createElement('div');
+                text.className = 'pcg-template-text';
+                text.textContent = template;
+
+                const copyBtn = document.createElement('button');
+                copyBtn.className = 'pcg-copy-btn';
+                copyBtn.innerHTML = 'Copy <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+                copyBtn.setAttribute('aria-label', `Copy template ${index + 1}`);
+
+                copyBtn.addEventListener('click', () => copyTemplate(template, copyBtn));
+                copyBtn.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        copyTemplate(template, copyBtn);
+                    }
+                });
+
+                row.appendChild(text);
+                row.appendChild(copyBtn);
+                templatesList.appendChild(row);
+            });
+        }
+
+        // Copy template to clipboard
+        function copyTemplate(template, button) {
+            // Use Clipboard API with fallback
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(template)
+                    .then(() => showCopySuccess(button))
+                    .catch(() => fallbackCopyText(template, button));
+            } else {
+                fallbackCopyText(template, button);
+            }
+        }
+
+        // Fallback copy method for older browsers
+        function fallbackCopyText(text, button) {
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            textArea.style.position = 'fixed';
+            textArea.style.opacity = '0';
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+
+            try {
+                document.execCommand('copy');
+                if (button) {
+                    showCopySuccess(button);
+                } else {
+                    showToast('Copied to clipboard!');
+                }
+            } catch (err) {
+                showToast('Failed to copy text');
+            }
+
+            document.body.removeChild(textArea);
+        }
+
+        // Show copy success feedback
+        function showCopySuccess(button) {
+            // Update button appearance
+            button.classList.add('copied');
+            button.innerHTML = 'Copied! <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4caf50" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+
+            // Show toast notification
+            showToast('Copied to clipboard!');
+
+            // Reset button after delay
+            setTimeout(() => {
+                button.classList.remove('copied');
+                button.innerHTML = 'Copy <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+            }, 1200);
+        }
+
+        // Show toast notification
+        function showToast(message) {
+            toast.textContent = message;
+            toast.classList.add('visible');
+
+            setTimeout(() => {
+                toast.classList.remove('visible');
+            }, 1200);
+        }
+
+        // Handle search functionality
+        function handleSearch() {
+            searchTerm = searchInput.value.toLowerCase().trim();
+
+            // Update search results text
+            if (searchTerm) {
+                const totalResults = countSearchResults();
+                searchResults.textContent = `Found ${totalResults} result${totalResults !== 1 ? 's' : ''} for "${searchTerm}"`;
+            } else {
+                searchResults.textContent = '';
+            }
+
+            // Re-render current course with filtered units
+            if (currentCourse) {
+                renderUnits(currentCourse.units);
+
+                // Try to maintain current unit selection if it still exists after filtering
+                const filteredUnits = searchTerm ?
+                    currentCourse.units.filter(unit =>
+                        unit.title.toLowerCase().includes(searchTerm) ||
+                        unit.templates.some(template =>
+                            template.toLowerCase().includes(searchTerm)
+                        )
+                    ) : currentCourse.units;
+
+                if (currentUnit && filteredUnits.some(unit => unit.id === currentUnit.id)) {
+                    // Current unit still exists, keep it selected
+                    selectUnit(currentUnit.id);
+                } else if (filteredUnits.length > 0) {
+                    // Select first available unit
+                    selectUnit(filteredUnits[0].id);
+                } else {
+                    // No units match, clear templates
+                    fadeOutTemplates(() => {
+                        templatesList.innerHTML = '<p>No templates match your search</p>';
+                        fadeInTemplates();
+                    });
+                }
+            }
+        }
+
+        // Count total search results across all courses
+        function countSearchResults() {
+            let count = 0;
+
+            pcgData.forEach(course => {
+                course.units.forEach(unit => {
+                    if (unit.title.toLowerCase().includes(searchTerm) ||
+                        unit.templates.some(template =>
+                            template.toLowerCase().includes(searchTerm)
+                        )) {
+                        count++;
+                    }
+                });
+            });
+
+            return count;
+        }
+
+        // Set up event listeners
+        function setupEventListeners() {
+            // Search input
+            searchInput.addEventListener('input', handleSearch);
+
+            // Check scrollable state on window resize
+            window.addEventListener('resize', checkScrollable);
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+
+</html>
